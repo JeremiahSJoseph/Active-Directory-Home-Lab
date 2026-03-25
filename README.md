@@ -37,8 +37,10 @@ Example below.
 
 Step 1
   - Created a network diagram to map out the lab environment and show how the machines would connect.
+     
     
-    
+Step 2
+  - Set up the virtual lab in VirtualBox by creating the Windows Server,    
     
 Step 3
   - Configured the network by setting up the NAT network, assigning IP addresses, and making sure the systems could communicate.
