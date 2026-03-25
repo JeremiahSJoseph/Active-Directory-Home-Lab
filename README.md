@@ -29,8 +29,8 @@ Step 1
   - Created a network diagram to map out the lab environment and show how the machines would connect.
     
 Step 2
-  - Set up the virtual lab in VirtualBox by creating the Windows Server.    
-    
+  - Set up the virtual lab in VirtualBox by creating four VMs: Windows (target), Windows Server (AD), Splunk, Kali Linux (Penetrator).
+        
 Step 3
   - Configured the network by setting up the NAT network, assigning IP addresses, and making sure the systems could communicate.
     
@@ -61,7 +61,7 @@ Step 9
 
 *Ref 2: VM Setup*
 
-<img width="1638" height="1020" alt="image" src="https://github.com/user-attachments/assets/de056b86-3603-44bd-9283-52c004886937" />
+<img width="1010" height="634" alt="image" src="https://github.com/user-attachments/assets/ecd9ef07-65b3-4951-81f6-e470176e391c" />
 
 
 *Ref 3: Network Configuration*
