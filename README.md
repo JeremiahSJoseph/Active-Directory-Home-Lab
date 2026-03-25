@@ -40,7 +40,7 @@ Step 1
      
     
 Step 2
-  - Set up the virtual lab in VirtualBox by creating the Windows Server,    
+  - Set up the virtual lab in VirtualBox by creating the Windows Server.    
     
 Step 3
   - Configured the network by setting up the NAT network, assigning IP addresses, and making sure the systems could communicate.
