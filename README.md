@@ -1,12 +1,10 @@
 # Active Directory Home Lab
 
 ## Objective
-[Brief Objective - Remove this afterwards]
 
 The purpose of this project is to build a simulated business environment using Active Directory, Splunk, and Kali Linux to gain hands-on experience in system administration and cybersecurity. This lab was designed to provide real-world scenarios by configuring a domain, generating security events, and monitoring activity through a SIEM for threat detection. The end goal is to develop practical skills in both defensive and offensive security by analyzing attack behavior and improving detection skills in a controlled environment.
 
 ### Skills Learned
-[Bullet Points - Remove this afterwards]
 
 - Configuration and management of an Active Directory domain environment.
 - Construction and networking of multiple virtual machines.
@@ -16,7 +14,6 @@ The purpose of this project is to build a simulated business environment using A
 - Troubleshooting and problem-solving skills.
 
 ### Tools Used
-[Bullet Points - Remove this afterwards]
 
 - VirtualBox for creation of virtual machines.
 - Windows Server (Active Directory Domain Services) for configuration of the Domain Controller.
@@ -27,17 +24,9 @@ The purpose of this project is to build a simulated business environment using A
 - Kali Linux for simulating real-world cyber attacks against the environment.
 
 ## Steps
-drag & drop screenshots here or use imgur and reference them using imgsrc
-
-Every screenshot should have some text explaining what the screenshot is about.
-
-Example below.
-
-*Ref 1: Network Diagram*
 
 Step 1
   - Created a network diagram to map out the lab environment and show how the machines would connect.
-     
     
 Step 2
   - Set up the virtual lab in VirtualBox by creating the Windows Server.    
@@ -47,23 +36,60 @@ Step 3
     
 Step 4
   - Installed and configured Active Directory by promoting the Windows Server to a Domain Controller and creating the domain environment.
-  - active directory/domain controller pic
     
 Step 5
   - Created and managed users and systems inside Active Directory, including joining the Windows client to the domain.
-  - test users pic
     
 Step 6
   - Set up logging and monitoring with Splunk, the Universal Forwarder, and Sysmon to capture activity from the environment.
-  - splunk pic
     
 Step 7
   - Simulated an attack from Kali Linux, such as an RDP brute-force attempt, to generate security events.
-  - show hydra pic
     
 Step 8
   - Reviewed and analyzed the logs in Splunk to detect the attack activity and understand what happened.
-  - show siem pic
     
 Step 9
   - Troubleshot issues such as DNS, connectivity, authentication, and log forwarding to keep the lab functioning properly.
+
+## References
+
+*Ref 1: Network Diagram*
+
+<img width="692" height="722" alt="image" src="https://github.com/user-attachments/assets/34486a20-626c-47d4-93b9-a570e911ec7e" />
+
+
+*Ref 2: VM Setup*
+
+<img width="1638" height="1020" alt="image" src="https://github.com/user-attachments/assets/de056b86-3603-44bd-9283-52c004886937" />
+
+
+*Ref 3: Network Configuration*
+
+<img width="1128" height="868" alt="image" src="https://github.com/user-attachments/assets/a371fc34-2b2b-47c1-8c51-db9f95614dc9" />
+
+
+*Ref 4: Active Directory Configuration*
+
+<img width="998" height="772" alt="image" src="https://github.com/user-attachments/assets/3048938f-2e06-4d2f-9e66-e00ea985ef58" />
+
+
+*Ref 5: User Management*
+
+<img width="1018" height="734" alt="image" src="https://github.com/user-attachments/assets/3f00df03-d978-45ce-9ef6-ab1fdcd23a0f" />
+
+
+*Ref 6: Splunk-Server Configuration*
+
+<img width="952" height="762" alt="image" src="https://github.com/user-attachments/assets/2eea2367-92e8-4b10-90b3-678def5171bf" />
+
+
+*Ref 7: Kali Linux Brute-Force Attempt*
+
+<img width="964" height="782" alt="image" src="https://github.com/user-attachments/assets/9d2acfc9-4371-4011-b3b5-30fcafa76d77" />
+
+
+*Ref 8: SIEM Monitoring*
+
+<img width="988" height="642" alt="image" src="https://github.com/user-attachments/assets/b2e230a2-69fd-431c-841e-3251b15bf14f" />
+
