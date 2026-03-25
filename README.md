@@ -38,26 +38,30 @@ Example below.
 Step 1
   - Created a network diagram to map out the lab environment and show how the machines would connect.
     
-Step 2
-  - Set up the virtual lab in VirtualBox by creating the Windows Server, Windows client, Kali Linux, and Splunk machines.
+    
     
 Step 3
   - Configured the network by setting up the NAT network, assigning IP addresses, and making sure the systems could communicate.
     
 Step 4
   - Installed and configured Active Directory by promoting the Windows Server to a Domain Controller and creating the domain environment.
+  - active directory/domain controller pic
     
 Step 5
   - Created and managed users and systems inside Active Directory, including joining the Windows client to the domain.
+  - test users pic
     
 Step 6
   - Set up logging and monitoring with Splunk, the Universal Forwarder, and Sysmon to capture activity from the environment.
+  - splunk pic
     
 Step 7
   - Simulated an attack from Kali Linux, such as an RDP brute-force attempt, to generate security events.
+  - show hydra pic
     
 Step 8
   - Reviewed and analyzed the logs in Splunk to detect the attack activity and understand what happened.
+  - show siem pic
     
 Step 9
   - Troubleshot issues such as DNS, connectivity, authentication, and log forwarding to keep the lab functioning properly.
