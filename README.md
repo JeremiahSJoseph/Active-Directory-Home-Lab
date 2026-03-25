@@ -84,7 +84,7 @@ Step 9
 <img width="952" height="762" alt="image" src="https://github.com/user-attachments/assets/2eea2367-92e8-4b10-90b3-678def5171bf" />
 
 
-*Ref 7: Kali Linux Brute-Force Attempt*
+*Ref 7: Kali Linux Brute-Force Attack*
 
 <img width="964" height="782" alt="image" src="https://github.com/user-attachments/assets/9d2acfc9-4371-4011-b3b5-30fcafa76d77" />
 
